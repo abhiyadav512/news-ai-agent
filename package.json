@@ -1,0 +1,29 @@
+{
+  "name": "newsagent",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "abhishek",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@langchain/community": "^0.3.55",
+    "@langchain/core": "^0.3.75",
+    "@langchain/google-genai": "^0.2.17",
+    "axios": "^1.11.0",
+    "bottleneck": "^2.19.5",
+    "dotenv": "^17.2.2",
+    "jsdom": "^26.1.0",
+    "langchain": "^0.3.33",
+    "node-cron": "^4.2.1",
+    "nodemon": "^3.1.10",
+    "p-retry": "^7.0.0",
+    "twilio": "^5.9.0",
+    "winston": "^3.17.0"
+  }
+}
